@@ -64,9 +64,9 @@ class playGame extends Phaser.Scene {
         super("PlayGame");
     }
     preload() {
-        this.load.image("background", "assets/bar.png");
+        this.load.image("background", "assets/buteco.png");
         this.load.image("platform", "assets/asfalto.png");
-        this.load.image("player", "assets/ze.png");
+        this.load.image("player", "assets/zezinho.pjpg");
         this.load.audio("song", "assets/bg.mp3");
         this.load.image("longneck", "assets/longneck.png");
     }
@@ -315,9 +315,9 @@ class playGame extends Phaser.Scene {
         super("PlayGame");
     }
     preload() {
-        this.load.image("background", "assets/ju.png");
+        this.load.image("background", "assets/buteco.png");
         this.load.image("platform", "assets/asfalto.png");
-        this.load.image("player", "assets/toffa.png");
+        this.load.image("player", "assets/zezinho.jpg");
         this.load.audio("song", "assets/bg.mp3");
         this.load.image("longneck", "assets/longneck.png");
     }
