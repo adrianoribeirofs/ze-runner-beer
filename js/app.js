@@ -66,7 +66,7 @@ class playGame extends Phaser.Scene {
     preload() {
         this.load.image("background", "assets/buteco.png");
         this.load.image("platform", "assets/asfalto.png");
-        this.load.image("player", "assets/zezinho.jpg");
+        this.load.image("player", "assets/zezinho.png");
         this.load.audio("song", "assets/bg.mp3");
         this.load.image("longneck", "assets/longneck.png");
     }
